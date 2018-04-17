@@ -109,13 +109,20 @@ a{
 .m20{
 	margin-top:10rem !important;
 }
+.width-box{
+	width: 455px !important;
+}
+.menu-category .menu-category-title {
+	height: 0vh;
+}
+
 }
 
 
-
-.container {
-    width: 828px !important;
+.width-box{
+	width: 828px;
 }
+
 .m20{
 	margin-top:20rem;
 }
