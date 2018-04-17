@@ -103,26 +103,37 @@ a{
 }
 
 @media (max-width:480px) {
-	.container {
-    width: 490px !important;
-}
+	
 .m20{
 	margin-top:10rem !important;
 }
 .width-box{
-	width: 455px !important;
+	width: 100% !important;
 }
 .menu-category .menu-category-title {
 	height: 0vh;
+	background-color: rgba(0, 0, 0, 0);
 }
-
+.menu-category .menu-category-title .title{
+	font-size: 3rem;
+	bottom: 8rem;
 }
+}
+@media (max-width:768px) {
 
+.width-box{
+	width: 100% !important;
+}
+}
 
 .width-box{
 	width: 828px;
+	margin: 0 auto;
 }
 
 .m20{
 	margin-top:20rem;
+}
+.m22{
+	margin-top:22rem;
 }
