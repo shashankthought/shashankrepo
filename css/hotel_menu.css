@@ -77,6 +77,10 @@ a{
     align-items: center!important;
 }
 
+.mt-8{
+	margin-top: 8px;
+}
+
 @media (min-width: 576px){
 .mb-sm-0 {
     margin-bottom: 0!important;
@@ -119,12 +123,14 @@ a{
 	bottom: 8rem;
 }
 .m20{
-	margin-top:4rem !important;
+	margin-top:2rem !important;
 }
 .m22{
-	margin-top:4rem !important;
+	margin-top:2rem !important;
 }
+
 }
+
 @media (max-width:768px) {
 
 .width-box{
@@ -138,8 +144,11 @@ a{
 }
 
 .m20{
-	margin-top:20rem;
+	margin-top:14rem;
 }
 .m22{
-	margin-top:22rem;
+	margin-top:17rem;
+}
+.f-right{
+	    float: right;
 }
