@@ -32,8 +32,8 @@ a{
 }
 .menu-category .menu-category-title {
     position: relative;
-    height: 35vh;
-    min-height: 160px;
+    height: 10vh;
+    min-height: 87px;
     color: #fff;
     padding: 3rem;
     background-color: #282b2e;
@@ -54,7 +54,7 @@ a{
     position: absolute;
     bottom: 3rem;
     left: 4rem;
-    font-size: 5rem;
+    font-size: 3rem;
     z-index: 2;
     margin-bottom: 0;
 }
@@ -116,11 +116,11 @@ a{
 }
 .menu-category .menu-category-title {
 	height: 0vh;
-	background-color: rgba(0, 0, 0, 0);
+	/*background-color: rgba(0, 0, 0, 0);*/
 }
 .menu-category .menu-category-title .title{
 	font-size: 3rem;
-	bottom: 8rem;
+	bottom: 3rem;
 }
 .m20{
 	margin-top:2rem !important;
@@ -128,7 +128,13 @@ a{
 .m22{
 	margin-top:2rem !important;
 }
-
+.menu-category-title {
+    height: 10vh;
+    min-height: 87px;
+}
+.title{
+    font-size: 3rem;
+}
 }
 
 @media (max-width:768px) {
@@ -144,10 +150,10 @@ a{
 }
 
 .m20{
-	margin-top:14rem;
+	margin-top:1rem;
 }
 .m22{
-	margin-top:17rem;
+	margin-top:1rem;
 }
 .f-right{
 	    float: right;
