@@ -1,0 +1,154 @@
+body,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+} 
+a{
+	text-decoration: none !important;
+}
+
+
+.mb-6 {
+    margin-bottom: 5rem !important;
+}
+.text-center {
+    text-align: center!important;
+}
+.menu-category {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.menu-category .menu-category-title {
+    position: relative;
+    height: 35vh;
+    min-height: 160px;
+    color: #fff;
+    padding: 3rem;
+    background-color: #282b2e;
+}
+
+.bg-image, .bg-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.menu-category .menu-category-title .title {
+    position: absolute;
+    bottom: 3rem;
+    left: 4rem;
+    font-size: 5rem;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+.menu-category .menu-category-content {
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+.menu-list-item:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+}
+.menu-list-item {
+    padding: 1.25rem 1.5rem;
+    line-height: 1.2;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -webkit-align-items: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.mt-8{
+	margin-top: 8px;
+}
+
+@media (min-width: 576px){
+.mb-sm-0 {
+    margin-bottom: 0!important;
+}
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+}
+
+@media (min-width: 576px){
+.col-sm-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+@media (min-width: 576px){
+.text-sm-right {
+    text-align: right!important;
+}
+}
+
+@media (max-width:480px) {
+	
+.m20{
+	margin-top:10rem !important;
+}
+.width-box{
+	width: 100% !important;
+}
+.menu-category .menu-category-title {
+	height: 0vh;
+	background-color: rgba(0, 0, 0, 0);
+}
+.menu-category .menu-category-title .title{
+	font-size: 3rem;
+	bottom: 8rem;
+}
+.m20{
+	margin-top:2rem !important;
+}
+.m22{
+	margin-top:2rem !important;
+}
+
+}
+
+@media (max-width:768px) {
+
+.width-box{
+	width: 100% !important;
+}
+}
+
+.width-box{
+	width: 828px;
+	margin: 0 auto;
+}
+
+.m20{
+	margin-top:14rem;
+}
+.m22{
+	margin-top:17rem;
+}
+.f-right{
+	    float: right;
+}
